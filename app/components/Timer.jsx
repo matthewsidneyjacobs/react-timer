@@ -1,8 +1,13 @@
 var React = require('react');
+var Clock = require('Clock');
 
 var Timer = () => {
   return (
-    <p>This is the timer.jsx component</p>
+    <div>
+      <p>This is the timer.jsx component</p>
+      <Clock totalSeconds={315}/>  
+    </div>
+
   )
 }
 
